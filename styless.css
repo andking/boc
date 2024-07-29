@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+}
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+.platform {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.logos img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+    cursor: pointer;
+}
+.payment-icons img {
+    max-width: 50px;
+    margin: 5px;
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.disclaimer {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media (max-width: 768px) {
+    .platform {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logos img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 480px) {
+    .logos img {
+        max-width: 100%;
+        height: auto;
+        margin: 5px 0;
+    }
+    .button {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+}
