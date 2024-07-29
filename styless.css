@@ -24,6 +24,9 @@ body {
     margin: 20px;
     cursor: pointer;
 }
+.kah{
+    padding-bottom: 25px;
+}
 .payment-icons img {
     max-width: 50px;
     margin: 5px;
