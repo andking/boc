@@ -62,6 +62,8 @@ body {
     .platform {
         flex-direction: row;
         align-items: start;
+        justify-content: center;
+        justify-items: center;
     }
     .logos img {
         max-width: 100%;
