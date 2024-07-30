@@ -14,6 +14,8 @@ body {
 .platform {
     padding-top: 15px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
     flex-wrap: wrap;
 }
@@ -60,7 +62,7 @@ body {
         padding: 0px;
     }
     .platform {
-        display: inline-flex;
+        flex-direction: row;
         align-items: start;
         justify-content: center;
         justify-items: center;
