@@ -14,7 +14,6 @@ body {
 .platform {
     padding-top: 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     flex-wrap: wrap;
@@ -64,8 +63,6 @@ body {
     .platform {
         flex-direction: row;
         align-items: start;
-        justify-content: center;
-        justify-items: center;
     }
     .logos img {
         max-width: 100%;
@@ -77,13 +74,13 @@ body {
         padding: 0;
         font-size: 18px;
         margin: 0;
-        margin-top: 15px;
+        margin-top: 20px;
     }
     .hak {
         padding-bottom: 15px;
     }
     a img {
-        width:150px;
+        width:95px;
         height:auto;  
     }
     .logos .kah-2 {
@@ -114,6 +111,7 @@ body {
     .platform {
         flex-direction: row;
         align-items: start;
+        justify-content: center;
     }
     .logos img {
         max-width: 100%;
@@ -152,6 +150,9 @@ body {
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
+    .platform{
+        justify-content: center;
+    }
     .container {
         width: 100%;
         margin: 0 auto;
@@ -193,6 +194,9 @@ body {
 }
 
 @media (min-width: 1441px) {
+    .platform{
+        justify-content: center;
+    }
     .container {
         width: 100%;
         margin: 0 auto;
