@@ -60,7 +60,7 @@ body {
         padding: 0px;
     }
     .platform {
-        flex-direction: row;
+        display: inline-flex;
         align-items: start;
         justify-content: center;
         justify-items: center;
